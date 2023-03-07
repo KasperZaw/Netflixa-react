@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Netflix-react/static/css/main.5b3d9f45.css",
-    "main.js": "/Netflix-react/static/js/main.684c9cc5.js",
-    "static/media/netflix-library-photo-scaled-1.jpg": "/Netflix-react/static/media/netflix-library-photo-scaled-1.9069d8370baf6f4e85d3.jpg",
-    "static/media/sinister.jpg": "/Netflix-react/static/media/sinister.f6f3a3f8b9e16ec92cfd.jpg",
-    "index.html": "/Netflix-react/index.html",
-    "main.5b3d9f45.css.map": "/Netflix-react/static/css/main.5b3d9f45.css.map",
-    "main.684c9cc5.js.map": "/Netflix-react/static/js/main.684c9cc5.js.map"
+    "main.css": "/Netflixa-react/static/css/main.5b3d9f45.css",
+    "main.js": "/Netflixa-react/static/js/main.6be3b2ee.js",
+    "static/media/netflix-library-photo-scaled-1.jpg": "/Netflixa-react/static/media/netflix-library-photo-scaled-1.9069d8370baf6f4e85d3.jpg",
+    "static/media/sinister.jpg": "/Netflixa-react/static/media/sinister.f6f3a3f8b9e16ec92cfd.jpg",
+    "index.html": "/Netflixa-react/index.html",
+    "main.5b3d9f45.css.map": "/Netflixa-react/static/css/main.5b3d9f45.css.map",
+    "main.6be3b2ee.js.map": "/Netflixa-react/static/js/main.6be3b2ee.js.map"
   },
   "entrypoints": [
     "static/css/main.5b3d9f45.css",
-    "static/js/main.684c9cc5.js"
+    "static/js/main.6be3b2ee.js"
   ]
 }
