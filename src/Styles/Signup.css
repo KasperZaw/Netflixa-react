@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+main {
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  img {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .background::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 1); /* Adjust the alpha value to make the overlay darker or lighter */
+  }
+
+  .login-container {
+    z-index: 2;
+    position: absolute;
+    color:rgba(228, 219, 219);
+    width: 400px;
+    height: 600px;
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .login-container h1 {
+    font-size: 4 0px;
+    margin-top:20px ;
+    margin-bottom: 50px;
+    font-family: 'Lato', sans-serif;
+    text-align: left;
+    padding-left: 25px;
+    letter-spacing: 2px;
+    color: white;
+  }
+
+  .inputs-container {
+    margin-bottom: 20px;
+  }
+
+  .inputs-container input {
+    width: 300px;
+    margin-bottom: 20px;
+    padding: 25px;
+    border: none;
+    background-color: rgba(228, 219, 219, .9);
+    color: white;
+    border-radius: 5px;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1px;
+  }
+
+  .inputs-container button {
+    width: 350px;
+    padding: 20px;
+    border: none;
+    background-color: #e50914;
+    color: white;
+    border-radius: 5px;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 20px;
+  }
+
+  .inputs-container button:hover {
+    background-color: #d40813;
+  }
+  
+  .register {
+    text-align: start;
+    font-size: 15px;
+  }
+
+  .remember {
+    margin-bottom: 80px;
+    justify-content: space-between;
+    display: flex;
+    padding: 0 25px 0 25px;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+  .remember input {
+    margin-right: 5px;
+  }
+  
+  .account {
+    padding: 0 25px 0 25px;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+
+  .account p{
+    font-size: 12px;
+    
+  }
+
+  .account h5{
+    font-size: 15px;
+    margin-bottom: 10px;
+    
+  }

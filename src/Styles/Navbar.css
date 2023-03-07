@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+nav {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: transparent;
+    z-index: 1;
+    transition: background-color 0.3s ease-in-out;
+}
+
+nav.scrolled {
+    background-color: rgb(22, 22, 22);
+    position: fixed;
+    z-index: 100;
+}
+
+nav h1 {
+    color: #E50914;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 5px;
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+nav button {
+    padding: 20px 40px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    color: white;
+    border: none;
+}
+
+.btn-1 {
+    background:transparent;
+}
+
+.btn-2 {
+    background-color: #E50914;
+    border-radius: 5px;
+}
+
+button {
+    cursor: pointer;
+     
+}
+
+button:hover{
+   opacity: 0.6;     
+}
+
+nav img {
+    height:58px;
+    width:55px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.buttons-container {
+    display: flex;
+    align-items: center;
+}
+
+.search-container i {
+    position: relative;
+    left: -110%;
+    font-size: 20px;
+}
+.search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-container input {
+   padding: 5px;
+   background-color: rgba(46, 46, 46, 0.8);
+   border: none;
+   color: white;
+   flex-wrap: wrap;
+}
+
+@media screen and (max-width: 600px) {
+    nav button {
+      padding: 10px;
+      font-size: 15px;
+    }
+    nav h1 {
+        font-size: 2rem;
+    }
+    nav img {
+        height:35px;
+        width:35px;
+        
+    }
+  }

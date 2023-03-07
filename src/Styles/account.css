@@ -1,0 +1,101 @@
+.main {
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.img-wrapper {
+    position: relative; /* Position the wrapper element */
+  }
+  
+  .img-wrapper img {
+    height: 250px;
+    width: 250px;
+  }
+  
+  .img-wrapper:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0); /* Black overlay with 0% opacity by default */
+    z-index: 1;
+    transition: background-color 0.5s ease; /* Add transition effect for smoother hover */
+    cursor: pointer; 
+}
+  
+  .img-wrapper:hover:before {
+    background-color: rgba(0, 0, 0, 0.5); /* Black overlay with 50% opacity when hovering */
+  }
+  .img-wrapper i {
+    position: absolute;
+    color: white;
+    top: 35%;
+    left: 35%;
+    cursor: pointer;
+    display: none; /* Hide the icon by default */
+    font-size: 60px;
+    z-index: 2;
+}
+
+.img-wrapper:hover i {
+    display: block; /* Show the icon when hovering over the wrapper */
+}
+
+.icons {
+  background-color: rgb(0, 0, 0, .8);
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  z-index: 3;
+}
+
+.icons i {
+  float: left;
+  position: relative;
+  font-size: 80px;
+}
+
+.icons-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  height: 100vh;
+  justify-content: center;
+  align-content: center;
+
+}
+
+.icons-container img {
+  height: 150px;
+  width: 150px;
+  cursor: pointer;
+  transition: ease-in-out 0.5s;
+}
+
+.icons-container img:hover {
+  opacity: 0.8;
+  transform: translateY(-50px);
+}
+
+
+@media screen and (max-width: 600px) {
+  .icons-container img {
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    transition: ease-in-out 0.5s;
+  }
+  .icons i {
+    float: left;
+    position: absolute;
+    font-size: 30px;
+  }
+  .img-wrapper img {
+    height: 150px;
+    width: 150px;
+  }
+}
